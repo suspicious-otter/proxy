@@ -1,0 +1,10 @@
+{
+  "rules": [
+    {
+      "pathname": "/graphql",
+      "method": ["POST"],
+      "dest": "api.company.com"
+    },
+    { "dest": "site.company.com" }
+  ]
+}

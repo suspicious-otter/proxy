@@ -1,0 +1,15 @@
+{
+  "name": "courses-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/suspicious-otter/proxy.git",
+  "author": "sergiodxa <sergiodxa@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "micro-proxy -r rules.dev.json -p 3000",
+    "setup": "now alias company.com -r rules.json"
+  },
+  "dependencies": {
+    "micro-proxy": "^1.0.3"
+  }
+}
